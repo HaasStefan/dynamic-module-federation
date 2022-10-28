@@ -1,0 +1,14 @@
+{
+    "remote1": {
+        "remoteEntry": "http://localhost:4201/remoteEntry.js",
+        "exposedModule": "./Routes",
+        "route": "one",
+        "routeConfigName": "routes" 
+    },
+    "remote2": {
+        "remoteEntry": "http://localhost:4202/remoteEntry.js",
+        "exposedModule": "./Routes",
+        "route": "two",
+        "routeConfigName": "routes" 
+    }
+}   

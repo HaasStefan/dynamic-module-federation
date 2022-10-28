@@ -1,0 +1,19 @@
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    width: 96%;
+    position: absolute;
+    padding: 2%;
+
+    .nav {
+        flex-grow: none;
+    }
+
+    .remote {
+        flex-grow: 1;
+        padding: 20px;
+        border: 5px dotted red;
+    }
+}

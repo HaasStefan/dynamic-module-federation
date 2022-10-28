@@ -8,13 +8,21 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2020",
     "module": "esnext",
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dynamic-module-federation/remote1-lib": [
+        "libs/remote1-lib/src/index.ts"
+      ],
+      "@dynamic-module-federation/remote2-lib": [
+        "libs/remote2-lib/src/index.ts"
+      ],
+      "@dynamic-module-federation/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

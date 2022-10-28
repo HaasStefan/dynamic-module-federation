@@ -1,0 +1,18 @@
+@mixin box($color, $light-color) {
+    border-radius: 5px;
+    border: 2px solid $color;
+    padding: 5px;
+    background-color: $light-color;
+}
+
+.navbar {
+    @include box(black, lightgray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+    a {
+        @include box(purple, lightpink);
+    }
+}

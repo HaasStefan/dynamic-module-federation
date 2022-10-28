@@ -1,0 +1,1 @@
+export {routes} from './lib/remote1.routes';

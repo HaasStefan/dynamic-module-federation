@@ -7,7 +7,8 @@
     "postinstall": "node ./decorate-angular-cli.js",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-architects/module-federation": "^14.3.14",
     "@angular-devkit/build-angular": "~14.2.0",
     "@angular-eslint/eslint-plugin": "~14.0.4",
     "@angular-eslint/eslint-plugin-template": "~14.0.4",
@@ -49,6 +51,7 @@
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
     "jest-preset-angular": "~12.2.2",
+    "ngx-build-plus": "^14.0.0",
     "nx": "15.0.0",
     "prettier": "^2.6.2",
     "ts-jest": "28.0.5",

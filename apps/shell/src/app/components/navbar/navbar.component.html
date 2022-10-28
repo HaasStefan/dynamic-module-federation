@@ -1,0 +1,5 @@
+<div class="navbar">
+  <ng-container *ngFor="let m of manifest | keyvalue">
+    <a [routerLink]="[m.value.route]">{{ m.value.route }}</a>
+  </ng-container>
+</div>
